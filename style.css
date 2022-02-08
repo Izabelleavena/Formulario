@@ -1,0 +1,111 @@
+body{
+    background-image: url(/fundo-preto-background.png);
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 35px;
+    margin-top: 30px;
+    color: white;
+}
+
+.form-control{
+ width:80%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+
+ 
+}
+
+input.form-control, select.form-select{
+    width: 100%;
+    color: white;
+background-color: transparent;
+   
+}
+select.form-select{
+    width: 100%;
+    color: white;
+background-color:  rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+
+
+.container{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   padding: 50px;
+ 
+}
+
+#botao{
+    margin-left: 350px;
+    margin-bottom: 20px;
+    border-bottom: white  solid 2px;
+    background-color: black;
+}
+
+i{
+    cursor: pointer;
+}
+
+#botaosucesso,#botaoerro{
+    display: none;
+}
+
+label{
+    color: white;
+}
+
+#endereco{
+    border: 1px solid white;
+  
+ 
+
+}
+h4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rua,#bairro,#numero,#cidade,#estado{
+    margin: 5px;
+
+}
+.inputD:disabled{
+    background-color: transparent;
+}
+#msg6{
+    margin-left: 15px;
+    margin-top: 5px;
+ 
+}
+#cep{
+    width: 30%;
+    margin-left:15px;
+
+}
+#numero{
+    width: 30%;
+}
+#bairro{
+    width: 50%;
+}
+.inputs, .selecionados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
